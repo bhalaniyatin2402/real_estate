@@ -1,0 +1,1218 @@
+/* reset default css setting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+li:hover {
+  color: rgb(207, 206, 206);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header navigation menu */
+img[alt="whitelogo"] {
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  margin: 20px 10vw;
+}
+
+header + hr {
+  margin: 0 7vw;
+}
+
+header::before {
+  content: '';
+  background: linear-gradient(#1d1c1c60, #3331315d), url('Photos/mainBackground.png') no-repeat center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 110vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 4%;
+}
+
+header img {
+  height: 30px;
+}
+
+header nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header ul li {
+  margin: 0 15px;
+  font-size: 1.1rem;
+  color: #ffff;
+}
+
+.hemberger-icon {
+  display: none;
+}
+
+/* design main view */
+.main-view {
+  margin: 0 10vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+main h1 {
+  color: #ffff;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+
+main p {
+  color: #ffffffcb;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+
+main button {
+  padding: 13px 25px;
+  background-color: #2f6cdd;
+  color: #ffff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+main button:hover {
+  background-color: #1f4997;
+}
+
+
+/* logo section */
+.mainlogosection {
+  height: 175px;
+  margin: 0 2vw;
+  padding: 40px 0 0 0;
+}
+
+.logosection {
+  background-color: rgb(245, 104, 23);
+  position: relative;
+  top: 0px;
+  height: 150px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img[alt='white-logo'] {
+  height: 30%;
+}
+
+/* card section */
+.cardsection {
+  background-color:  #ebe6e6;
+  margin-bottom: 50px;
+}
+
+.cardsection h1 {
+  color: #000000;
+  font-size: 3rem;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.all-cards {
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.card {
+  width: 30%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+}
+
+.cardinfo {
+  background-color: #fff;
+  width: 80%;
+  height: 100px;
+  position: relative;
+  top: -10%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card-left h3 {
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-left p {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #920ad1;
+}
+
+.card-right button {
+  background-color: #920ad1;
+  font-size: 1rem;
+}
+
+.card-right button:hover {
+  background-color: #520675;
+}
+
+.card2, .card5, .card8 {
+  margin-top: 50px;
+}
+
+.card3, .card4, .card9 {
+  margin-top: 100px;
+}
+
+/* books section */
+.booksection {
+  display: flex;
+  margin: 150px 0;
+}
+
+.book-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img[alt='featuresImage1'] {
+  width: 60%;
+  height: 120%;
+  border-radius: 25px;
+}
+
+.book-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.book-right h1 {
+  color: rgba(0, 0, 0, 0.801);
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.book-right p {
+  color: rgb(70, 64, 64);
+  font-size: 1.2rem;
+}
+
+.booksection button {
+  font-size: 1rem;
+}
+
+
+/* book section 2 */
+.booksection2 {
+  display: flex;
+  height: 550px;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.book-left2 {
+  width: 50%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid orange; */
+}
+
+.book-left2 h1 {
+  color: black;
+  font-size: 3rem;
+  line-height: 1.3;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.book-left2 p {
+  color: rgb(63, 60, 60);
+  font-size: 1.rem;
+}
+
+.book-right2 {
+  width: 50%;
+  /* border: 1px solid red; */
+}
+
+img[alt='featureImageBg2'] {
+  width: 60%;
+  background-size: 100% 100%;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  bottom: -50px;
+}
+
+img[alt='featuresImage2'] {
+  border-radius: 50px;
+  position: relative;
+  width: 55%;
+  height: 60%;
+  top: -380px;
+  left: 26%;
+}
+
+.booksection2 button {
+  font-size: 1rem;
+}
+
+/* subscribe section */
+.subscribesection {
+  background-color: #920ad1;
+  margin: 100px 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  border-radius: 80px;
+}
+
+.subscribesection h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subscribesection p {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.mail-box input {
+  width: 350px;
+  height: 45px;
+  border-radius: 40px;
+  padding-left: 50px;
+  background-color: #5854549a;
+  border: none;
+}
+
+.mail-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img[alt='mail'] {
+  position: relative;
+  left: -330px;
+  height: 20px;
+}
+
+.mail-box input:focus {
+  font-size: 1rem;
+  color: #ffff;
+}
+
+.mail-box button {
+  color: #920ad1;
+  background-color: #ffff;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  border-radius: 18px;
+} 
+
+.mail-box button:hover {
+  background-color: rgb(207, 206, 206);
+} 
+
+/* footer */
+footer {
+  display: flex;
+  margin: 0 10vw;
+  height: 200px;
+}
+
+.left-footer {
+  width: 65%;
+}
+
+.left-footer .footer-logo {
+  margin-bottom: 20px;
+}
+
+.left-footer .footer-logo img{
+  height: 40px;
+  margin: auto;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icons img {
+  cursor: pointer;
+  height: 35px;
+}
+
+.social-icons img:hover {
+  opacity: 0.8;
+}
+
+.left-footer p {
+  font-size: 1rem;
+}
+
+.right-footer {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-footer h3 {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.right-footer ul li {
+  font-size: 0.9rem;
+  color: #3a3636;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* responsive design */
+@media screen and (max-width: 576px) {
+  /* header and navbar */
+  header {
+    margin: 10px 5vw;
+  }
+  
+  header + hr {
+    margin: 0 3vw;
+  }
+  
+  header img {
+    height: 25px;
+  }
+
+  header ul li {
+    display: none;
+  }
+  
+  .hemberger-icon {
+    display: block;
+  }
+  
+  header::before {
+    height: 75vh;
+  }
+  
+  /* main view */
+  .main-view {
+    height: 60vh;
+  }
+  
+  main h1 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    line-height: 1.3;
+  }
+  
+  main p {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+  main p br {
+    display: none;
+  }
+  
+  main button {
+    padding: 8px 15px;
+    font-size: 0.8rem;
+    border-radius: 10px;
+  }
+
+  /* main logo section */
+  .mainlogosection {
+    height: 80px;
+    padding: 0px 0 0 0;
+  }
+  
+  .logosection {
+    height: 80px;
+    border-radius: 12px;
+  }
+  
+  img[alt='white-logo'] {
+    height: 23%;
+  }
+
+  .white_logo {
+    display: none;
+  }
+
+  /* card section */
+  .cardsection h1 {
+    font-size: 1.6rem;
+    /* padding-top: 15px; */
+  }
+  
+  .card {
+    width: 100%;
+    height: 325px;
+  }
+  
+  .cardinfo {
+    gap: 12px;
+    height: 90px;
+    border-radius: 15px;
+  }
+  
+  .card-left h3 {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+  
+  .card-left p {
+    font-size: 0.7rem;
+  }
+  
+  .card-right button {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+
+  .card2, .card5, .card8 {
+    margin-top: 0;
+  }
+  
+  .card3, .card4, .card9 {
+    margin-top: 0;
+  }
+  
+  /* book section */
+  .booksection {
+    margin: 100px 0;
+    flex-direction: column;
+  }
+  
+  .book-left {
+    width: 100%;
+  }
+  
+  img[alt='featuresImage1'] {
+    width: 70%;
+    height: 250px;
+    border-radius: 25px;
+  }
+  
+  .book-right {
+    width: 100%;
+    padding: 40px 35px;
+  }
+  
+  .book-right h1 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .book-right h1 br{
+    display: none;
+  }
+  
+  .book-right p {
+    font-size: 0.7rem;
+    margin-bottom: 15px;
+    line-height: 1.3;
+  }
+
+  .book-right p br{
+    display: none;
+  }
+  
+  .booksection button {
+    font-size: 0.8rem;
+    padding: 7px 14px;
+    border-radius: 12px;
+  }
+
+  /* book section 2 */
+  .booksection2 {
+    flex-direction: column;
+  }
+
+  .book-left2 {
+    width: 80%;
+    height: 170px;
+    margin: 15px auto;
+  }
+  
+  .book-left2 h1 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .book-left2 p {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    line-height: 1.3;
+  }
+
+  .book-left2 p br {
+    display: none;
+  }
+  
+  .book-right2 {
+    width: 100%;
+    height: 300px;
+  }
+  
+  img[alt='featureImageBg2'] {
+    width: 60%;
+    background-size: 100% 100%;
+    height: 220px;
+    width: 100%;
+    /* bottom: -50px; */
+  }
+  
+  img[alt='featuresImage2'] {
+    border-radius: 30px;
+    height: 60%;
+    top: -190px;
+  }
+  
+  .booksection2 button {
+    font-size: 0.8rem;
+    padding: 7px 14px;
+    border-radius: 9px;
+  }
+
+  /* subscribe section */
+  .subscribesection {
+    margin: 100px 5vw;
+    height: 270px;
+    border-radius: 25px;
+  }
+  
+  .subscribesection h1 {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .subscribesection h1 br{
+    display: none;
+  }
+  
+  .subscribesection p {
+    font-size: 0.6rem;
+    margin-bottom: 40px;
+    padding: 0 15px;
+  }
+
+  .subscribesection p br{
+    display: none;
+  }
+  
+  .mail-box input {
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 25px;
+    font-size: 0.6rem;
+  }
+  
+  img[alt='mail'] {
+    left: -140px;
+    height: 10px;
+  }
+  
+  .mail-box input:focus {
+    font-size: 0.6rem;
+  }
+  
+  .mail-box button {
+    height: 25px;
+    font-size: 0.6rem;
+    padding: 4px 8px;
+    border-radius: 12px;
+  }
+
+  /* footer */
+  footer {
+    flex-direction: column;
+    height: 350px;
+    gap: 20px;
+  }
+  
+  .left-footer {
+    width: 100%;
+  }
+  
+  .left-footer p {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .right-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .right-footer h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .right-footer ul li {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* header and navbar */
+  header ul li {
+    display: none;
+  }
+  
+  .hemberger-icon {
+    display: block;
+  }
+
+  /* main view */
+  main h1 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+  }
+  
+  main p {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+  }
+  
+  main button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 15px;
+  }
+
+  /* main logo section */
+  .mainlogosection {
+    height: 175px;
+    padding: 55px 0 0 0;
+  }
+  
+  .logosection {
+    height: 100px;
+  }
+  
+  img[alt='white-logo'] {
+    height: 25%;
+  }
+
+  /* card section */
+  .cardsection h1 {
+    font-size: 2rem;
+  }
+  
+  .card {
+    width: 40%;
+    height: 325px;
+  }
+  
+  .cardinfo {
+    gap: 12px;
+    height: 90px;
+    border-radius: 15px;
+  }
+  
+  .card-left h3 {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+  
+  .card-left p {
+    font-size: 0.7rem;
+  }
+  
+  .card-right button {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+
+  .card2, .card5, .card8 {
+    margin-top: 0;
+  }
+  
+  .card3, .card4, .card9 {
+    margin-top: 0;
+  }
+
+  /* book section */
+  .booksection {
+    margin: 100px 0;
+  }
+  
+  .book-left {
+    width: 50%;
+  }
+  
+  img[alt='featuresImage1'] {
+    width: 80%;
+    height: 300px;
+    border-radius: 25px;
+  }
+  
+  .book-right {
+    width: 50%;
+  }
+  
+  .book-right h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  
+  .book-right p {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+
+  .book-right p br{
+    display: none;
+  }
+  
+  .booksection button {
+    font-size: 0.8rem;
+    padding: 7px 14px;
+    border-radius: 12px;
+  }
+
+  /* book section 2 */
+  .booksection2 {
+    height: 300px;
+  }
+
+  .book-left2 h1 {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .book-left2 p {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
+
+  .book-left2 p br {
+    display: none;
+  }
+  
+  .book-right2 {
+    width: 50%;
+  }
+  
+  img[alt='featureImageBg2'] {
+    width: 60%;
+    background-size: 100% 100%;
+    height: 220px;
+    width: 100%;
+    /* bottom: -50px; */
+  }
+  
+  img[alt='featuresImage2'] {
+    border-radius: 25px;
+    height: 65%;
+    top: -205px;
+  }
+  
+  .booksection2 button {
+    font-size: 0.8rem;
+    padding: 7px 14px;
+    border-radius: 9px;
+  }
+
+  /* subscribe section */
+  .subscribesection {
+    margin: 100px 10vw;
+    height: 300px;
+    border-radius: 50px;
+  }
+  
+  .subscribesection h1 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .subscribesection h1 br{
+    display: none;
+  }
+  
+  .subscribesection p {
+    font-size: 0.6rem;
+    margin-bottom: 40px;
+    padding: 0 15px;
+  }
+
+  .subscribesection p br{
+    display: none;
+  }
+  
+  .mail-box input {
+    width: 250px;
+    height: 35px;
+    border-radius: 30px;
+    padding-left: 40px;
+  }
+  
+  img[alt='mail'] {
+    left: -240px;
+    height: 20px;
+  }
+  
+  .mail-box input:focus {
+    font-size: 1rem;
+  }
+  
+  .mail-box button {
+    height: 35px;
+    font-size: 0.8rem;
+  }
+
+  /* footer */
+  .left-footer {
+    width: 40%;
+  }
+
+  .left-footer p br {
+    display: none;
+  }
+  
+  .right-footer {
+    width: 60%;
+    justify-content: space-around;
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* main logo section */
+  .mainlogosection {
+    height: 175px;
+    padding: 55px 0 0 0;
+  }
+  
+  .logosection {
+    height: 120px;
+  }
+  
+  img[alt='white-logo'] {
+    height: 28%;
+  }
+
+  /* card section */
+  .card {
+    width: 40%;
+    height: 400px;
+  }
+  
+  .cardinfo {
+    gap: 15px;
+  }
+  
+  .card-left h3 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  .card-left p {
+    font-size: 0.8rem;
+  }
+  
+  .card-right button {
+    font-size: 1rem;
+    padding: 5px 12px;
+  }
+
+  .card2, .card5, .card8 {
+    margin-top: 0;
+  }
+  
+  .card3, .card4, .card9 {
+    margin-top: 0;
+  }
+
+  /* book section */
+  .booksection {
+    margin: 150px 0;
+  }
+  
+  .book-left {
+    width: 50%;
+  }
+  
+  img[alt='featuresImage1'] {
+    width: 80%;
+    height: 350px;
+    border-radius: 25px;
+  }
+  
+  .book-right {
+    width: 50%;
+  }
+  
+  .book-right h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  
+  .book-right p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .book-right p br{
+    display: none;
+  }
+  
+  .booksection button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 12px;
+  }
+
+  /* book section 2 */
+  .booksection2 {
+    height: 400px;
+  }
+
+  .book-left2 h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+    letter-spacing: 2px;
+  }
+  
+  .book-left2 p {
+    color: rgb(63, 60, 60);
+    font-size: 1rem;
+  }
+
+  .book-left2 p br {
+    display: none;
+  }
+  
+  .book-right2 {
+    width: 50%;
+  }
+  
+  img[alt='featureImageBg2'] {
+    width: 60%;
+    background-size: 100% 100%;
+    height: 350px;
+    width: 100%;
+    /* bottom: -50px; */
+  }
+  
+  img[alt='featuresImage2'] {
+    border-radius: 35px;
+    height: 70%;
+    top: -315px;
+    left: 26%;
+  }
+  
+  .booksection2 button {
+    font-size: 1rem;
+  }
+
+  /* suscribe section */
+  .subscribesection {
+    margin: 100px 10vw;
+    height: 350px;
+    border-radius: 50px;
+  }
+  
+  .subscribesection h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .subscribesection p {
+    font-size: 0.6rem;
+    margin-bottom: 40px;
+  }
+  
+  .mail-box input {
+    width: 250px;
+    height: 35px;
+    border-radius: 30px;
+    padding-left: 40px;
+  }
+  
+  img[alt='mail'] {
+    left: -240px;
+    height: 20px;
+  }
+  
+  .mail-box input:focus {
+    font-size: 1rem;
+  }
+  
+  .mail-box button {
+    height: 35px;
+    font-size: 0.8rem;
+  } 
+  
+  /* footer */
+  .left-footer {
+    width: 55%;
+  }
+  
+  .right-footer {
+    width: 45%;
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+  /* card section */
+  .cardsection h1 {
+    margin-top: 70px;
+  }
+  
+  .all-cards {
+    padding: 0 50px;
+  }
+  
+  .card {
+    width: 28%;
+    height: 400px;
+  }
+  
+  .cardinfo {
+    gap: 15px;
+  }
+  
+  .card-left h3 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  .card-left p {
+    font-size: 0.8rem;
+  }
+  
+  .card-right button {
+    font-size: 1rem;
+    padding: 5px 12px;
+  }
+  
+  .card2, .card5, .card8 {
+    margin-top: 50px;
+  }
+  
+  .card3, .card4, .card9 {
+    margin-top: 100px;
+  }
+
+  /* book section */
+  img[alt='featuresImage1'] {
+    width: 70%;
+    height: 400px;
+  }
+}
