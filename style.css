@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 li {
@@ -34,8 +34,9 @@ header + hr {
 }
 
 header::before {
-  content: '';
-  background: linear-gradient(#1d1c1c60, #3331315d), url('Photos/mainBackground.png') no-repeat center;
+  content: "";
+  background: linear-gradient(#1d1c1c60, #3331315d),
+    url("Photos/mainBackground.png") no-repeat center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -47,19 +48,19 @@ header::before {
 }
 
 header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav ul li {
-    list-style-type: none;
-    margin: 4%;
+  list-style-type: none;
+  margin: 4%;
 }
 
 header img {
@@ -129,7 +130,6 @@ main button:hover {
   background-color: #1f4997;
 }
 
-
 /* logo section */
 .mainlogosection {
   height: 175px;
@@ -148,13 +148,13 @@ main button:hover {
   align-items: center;
 }
 
-img[alt='white-logo'] {
+img[alt="white-logo"] {
   height: 30%;
 }
 
 /* card section */
 .cardsection {
-  background-color:  #ebe6e6;
+  background-color: #ebe6e6;
   margin-bottom: 50px;
 }
 
@@ -225,11 +225,15 @@ img[alt='white-logo'] {
   background-color: #520675;
 }
 
-.card2, .card5, .card8 {
+.card2,
+.card5,
+.card8 {
   margin-top: 50px;
 }
 
-.card3, .card4, .card9 {
+.card3,
+.card4,
+.card9 {
   margin-top: 100px;
 }
 
@@ -246,7 +250,7 @@ img[alt='white-logo'] {
   align-items: center;
 }
 
-img[alt='featuresImage1'] {
+img[alt="featuresImage1"] {
   width: 60%;
   height: 120%;
   border-radius: 25px;
@@ -276,7 +280,6 @@ img[alt='featuresImage1'] {
   font-size: 1rem;
 }
 
-
 /* book section 2 */
 .booksection2 {
   display: flex;
@@ -304,7 +307,7 @@ img[alt='featuresImage1'] {
 
 .book-left2 p {
   color: rgb(63, 60, 60);
-  font-size: 1.rem;
+  font-size: 1rem;
 }
 
 .book-right2 {
@@ -312,7 +315,7 @@ img[alt='featuresImage1'] {
   /* border: 1px solid red; */
 }
 
-img[alt='featureImageBg2'] {
+img[alt="featureImageBg2"] {
   width: 60%;
   background-size: 100% 100%;
   height: 400px;
@@ -321,7 +324,7 @@ img[alt='featureImageBg2'] {
   bottom: -50px;
 }
 
-img[alt='featuresImage2'] {
+img[alt="featuresImage2"] {
   border-radius: 50px;
   position: relative;
   width: 55%;
@@ -374,7 +377,7 @@ img[alt='featuresImage2'] {
   align-items: center;
 }
 
-img[alt='mail'] {
+img[alt="mail"] {
   position: relative;
   left: -330px;
   height: 20px;
@@ -392,11 +395,11 @@ img[alt='mail'] {
   display: flex;
   align-items: center;
   border-radius: 18px;
-} 
+}
 
 .mail-box button:hover {
   background-color: rgb(207, 206, 206);
-} 
+}
 
 /* footer */
 footer {
@@ -413,7 +416,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.left-footer .footer-logo img{
+.left-footer .footer-logo img {
   height: 40px;
   margin: auto;
 }
@@ -455,20 +458,17 @@ footer {
   margin-bottom: 10px;
 }
 
-
-
-
 /* responsive design */
 @media screen and (max-width: 576px) {
   /* header and navbar */
   header {
     margin: 10px 5vw;
   }
-  
+
   header + hr {
     margin: 0 3vw;
   }
-  
+
   header img {
     height: 25px;
   }
@@ -476,27 +476,27 @@ footer {
   header ul li {
     display: none;
   }
-  
+
   .hemberger-icon {
     display: block;
   }
-  
+
   header::before {
     height: 75vh;
   }
-  
+
   /* main view */
   .main-view {
     height: 60vh;
   }
-  
+
   main h1 {
     font-size: 1.6rem;
     letter-spacing: 1px;
     margin-bottom: 25px;
     line-height: 1.3;
   }
-  
+
   main p {
     font-size: 0.9rem;
     letter-spacing: 1px;
@@ -507,7 +507,7 @@ footer {
   main p br {
     display: none;
   }
-  
+
   main button {
     padding: 8px 15px;
     font-size: 0.8rem;
@@ -519,13 +519,13 @@ footer {
     height: 80px;
     padding: 0px 0 0 0;
   }
-  
+
   .logosection {
     height: 80px;
     border-radius: 12px;
   }
-  
-  img[alt='white-logo'] {
+
+  img[alt="white-logo"] {
     height: 23%;
   }
 
@@ -538,81 +538,85 @@ footer {
     font-size: 1.6rem;
     /* padding-top: 15px; */
   }
-  
+
   .card {
     width: 100%;
     height: 325px;
   }
-  
+
   .cardinfo {
     gap: 12px;
     height: 90px;
     border-radius: 15px;
   }
-  
+
   .card-left h3 {
     font-size: 0.9rem;
     margin-bottom: 8px;
   }
-  
+
   .card-left p {
     font-size: 0.7rem;
   }
-  
+
   .card-right button {
     font-size: 0.8rem;
     padding: 5px 10px;
   }
 
-  .card2, .card5, .card8 {
+  .card2,
+  .card5,
+  .card8 {
     margin-top: 0;
   }
-  
-  .card3, .card4, .card9 {
+
+  .card3,
+  .card4,
+  .card9 {
     margin-top: 0;
   }
-  
+
   /* book section */
   .booksection {
     margin: 100px 0;
     flex-direction: column;
   }
-  
+
   .book-left {
     width: 100%;
   }
-  
-  img[alt='featuresImage1'] {
+
+  img[alt="featuresImage1"] {
     width: 70%;
     height: 250px;
     border-radius: 25px;
   }
-  
+
   .book-right {
     width: 100%;
     padding: 40px 35px;
   }
-  
+
   .book-right h1 {
     font-size: 1.2rem;
     line-height: 1.2;
     margin-bottom: 20px;
   }
 
-  .book-right h1 br{
+  .book-right h1 br {
     display: none;
   }
-  
+
   .book-right p {
     font-size: 0.7rem;
     margin-bottom: 15px;
     line-height: 1.3;
   }
 
-  .book-right p br{
+  .book-right p br {
     display: none;
   }
-  
+
   .booksection button {
     font-size: 0.8rem;
     padding: 7px 14px;
@@ -629,13 +633,13 @@ footer {
     height: 170px;
     margin: 15px auto;
   }
-  
+
   .book-left2 h1 {
     font-size: 1.2rem;
     line-height: 1.2;
     margin-bottom: 20px;
   }
-  
+
   .book-left2 p {
     font-size: 0.8rem;
     margin-bottom: 15px;
@@ -645,26 +649,26 @@ footer {
   .book-left2 p br {
     display: none;
   }
-  
+
   .book-right2 {
     width: 100%;
     height: 300px;
   }
-  
-  img[alt='featureImageBg2'] {
+
+  img[alt="featureImageBg2"] {
     width: 60%;
     background-size: 100% 100%;
     height: 220px;
     width: 100%;
     /* bottom: -50px; */
   }
-  
-  img[alt='featuresImage2'] {
+
+  img[alt="featuresImage2"] {
     border-radius: 30px;
     height: 60%;
     top: -190px;
   }
-  
+
   .booksection2 button {
     font-size: 0.8rem;
     padding: 7px 14px;
@@ -677,26 +681,26 @@ footer {
     height: 270px;
     border-radius: 25px;
   }
-  
+
   .subscribesection h1 {
     font-size: 1rem;
     margin-bottom: 30px;
   }
 
-  .subscribesection h1 br{
+  .subscribesection h1 br {
     display: none;
   }
-  
+
   .subscribesection p {
     font-size: 0.6rem;
     margin-bottom: 40px;
     padding: 0 15px;
   }
 
-  .subscribesection p br{
+  .subscribesection p br {
     display: none;
   }
-  
+
   .mail-box input {
     width: 150px;
     height: 25px;
@@ -704,16 +708,16 @@ footer {
     padding-left: 25px;
     font-size: 0.6rem;
   }
-  
-  img[alt='mail'] {
+
+  img[alt="mail"] {
     left: -140px;
     height: 10px;
   }
-  
+
   .mail-box input:focus {
     font-size: 0.6rem;
   }
-  
+
   .mail-box button {
     height: 25px;
     font-size: 0.6rem;
@@ -727,42 +731,38 @@ footer {
     height: 350px;
     gap: 20px;
   }
-  
+
   .left-footer {
     width: 100%;
   }
-  
+
   .left-footer p {
     font-size: 0.8rem;
     margin-bottom: 15px;
   }
-  
+
   .right-footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
   }
-  
+
   .right-footer h3 {
     font-size: 1rem;
     margin-bottom: 10px;
   }
-  
+
   .right-footer ul li {
     font-size: 0.9rem;
   }
 }
-
-
-
-
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
   /* header and navbar */
   header ul li {
     display: none;
   }
-  
+
   .hemberger-icon {
     display: block;
   }
@@ -772,13 +772,13 @@ footer {
     font-size: 3rem;
     margin-bottom: 25px;
   }
-  
+
   main p {
     font-size: 0.9rem;
     letter-spacing: 1px;
     margin-bottom: 35px;
   }
-  
+
   main button {
     padding: 10px 20px;
     font-size: 1rem;
@@ -790,12 +790,12 @@ footer {
     height: 175px;
     padding: 55px 0 0 0;
   }
-  
+
   .logosection {
     height: 100px;
   }
-  
-  img[alt='white-logo'] {
+
+  img[alt="white-logo"] {
     height: 25%;
   }
 
@@ -803,37 +803,41 @@ footer {
   .cardsection h1 {
     font-size: 2rem;
   }
-  
+
   .card {
     width: 40%;
     height: 325px;
   }
-  
+
   .cardinfo {
     gap: 12px;
     height: 90px;
     border-radius: 15px;
   }
-  
+
   .card-left h3 {
     font-size: 0.9rem;
     margin-bottom: 8px;
   }
-  
+
   .card-left p {
     font-size: 0.7rem;
   }
-  
+
   .card-right button {
     font-size: 0.8rem;
     padding: 5px 10px;
   }
 
-  .card2, .card5, .card8 {
+  .card2,
+  .card5,
+  .card8 {
     margin-top: 0;
   }
-  
-  .card3, .card4, .card9 {
+
+  .card3,
+  .card4,
+  .card9 {
     margin-top: 0;
   }
 
@@ -841,36 +845,36 @@ footer {
   .booksection {
     margin: 100px 0;
   }
-  
+
   .book-left {
     width: 50%;
   }
-  
-  img[alt='featuresImage1'] {
+
+  img[alt="featuresImage1"] {
     width: 80%;
     height: 300px;
     border-radius: 25px;
   }
-  
+
   .book-right {
     width: 50%;
   }
-  
+
   .book-right h1 {
     font-size: 1.5rem;
     line-height: 1.2;
     margin-bottom: 30px;
   }
-  
+
   .book-right p {
     font-size: 0.8rem;
     margin-bottom: 20px;
   }
 
-  .book-right p br{
+  .book-right p br {
     display: none;
   }
-  
+
   .booksection button {
     font-size: 0.8rem;
     padding: 7px 14px;
@@ -887,7 +891,7 @@ footer {
     line-height: 1.2;
     margin-bottom: 20px;
   }
-  
+
   .book-left2 p {
     font-size: 0.8rem;
     margin-bottom: 15px;
@@ -896,25 +900,25 @@ footer {
   .book-left2 p br {
     display: none;
   }
-  
+
   .book-right2 {
     width: 50%;
   }
-  
-  img[alt='featureImageBg2'] {
+
+  img[alt="featureImageBg2"] {
     width: 60%;
     background-size: 100% 100%;
     height: 220px;
     width: 100%;
     /* bottom: -50px; */
   }
-  
-  img[alt='featuresImage2'] {
+
+  img[alt="featuresImage2"] {
     border-radius: 25px;
     height: 65%;
     top: -205px;
   }
-  
+
   .booksection2 button {
     font-size: 0.8rem;
     padding: 7px 14px;
@@ -927,42 +931,42 @@ footer {
     height: 300px;
     border-radius: 50px;
   }
-  
+
   .subscribesection h1 {
     font-size: 1.5rem;
     margin-bottom: 30px;
   }
 
-  .subscribesection h1 br{
+  .subscribesection h1 br {
     display: none;
   }
-  
+
   .subscribesection p {
     font-size: 0.6rem;
     margin-bottom: 40px;
     padding: 0 15px;
   }
 
-  .subscribesection p br{
+  .subscribesection p br {
     display: none;
   }
-  
+
   .mail-box input {
     width: 250px;
     height: 35px;
     border-radius: 30px;
     padding-left: 40px;
   }
-  
-  img[alt='mail'] {
+
+  img[alt="mail"] {
     left: -240px;
     height: 20px;
   }
-  
+
   .mail-box input:focus {
     font-size: 1rem;
   }
-  
+
   .mail-box button {
     height: 35px;
     font-size: 0.8rem;
@@ -976,16 +980,12 @@ footer {
   .left-footer p br {
     display: none;
   }
-  
+
   .right-footer {
     width: 60%;
     justify-content: space-around;
   }
 }
-
-
-
-
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   /* main logo section */
@@ -993,12 +993,12 @@ footer {
     height: 175px;
     padding: 55px 0 0 0;
   }
-  
+
   .logosection {
     height: 120px;
   }
-  
-  img[alt='white-logo'] {
+
+  img[alt="white-logo"] {
     height: 28%;
   }
 
@@ -1007,30 +1007,34 @@ footer {
     width: 40%;
     height: 400px;
   }
-  
+
   .cardinfo {
     gap: 15px;
   }
-  
+
   .card-left h3 {
     font-size: 1rem;
     margin-bottom: 8px;
   }
-  
+
   .card-left p {
     font-size: 0.8rem;
   }
-  
+
   .card-right button {
     font-size: 1rem;
     padding: 5px 12px;
   }
 
-  .card2, .card5, .card8 {
+  .card2,
+  .card5,
+  .card8 {
     margin-top: 0;
   }
-  
-  .card3, .card4, .card9 {
+
+  .card3,
+  .card4,
+  .card9 {
     margin-top: 0;
   }
 
@@ -1038,36 +1042,36 @@ footer {
   .booksection {
     margin: 150px 0;
   }
-  
+
   .book-left {
     width: 50%;
   }
-  
-  img[alt='featuresImage1'] {
+
+  img[alt="featuresImage1"] {
     width: 80%;
     height: 350px;
     border-radius: 25px;
   }
-  
+
   .book-right {
     width: 50%;
   }
-  
+
   .book-right h1 {
     font-size: 2rem;
     line-height: 1.2;
     margin-bottom: 30px;
   }
-  
+
   .book-right p {
     font-size: 1rem;
     margin-bottom: 20px;
   }
 
-  .book-right p br{
+  .book-right p br {
     display: none;
   }
-  
+
   .booksection button {
     font-size: 1rem;
     padding: 10px 20px;
@@ -1084,7 +1088,7 @@ footer {
     line-height: 1.2;
     letter-spacing: 2px;
   }
-  
+
   .book-left2 p {
     color: rgb(63, 60, 60);
     font-size: 1rem;
@@ -1093,26 +1097,26 @@ footer {
   .book-left2 p br {
     display: none;
   }
-  
+
   .book-right2 {
     width: 50%;
   }
-  
-  img[alt='featureImageBg2'] {
+
+  img[alt="featureImageBg2"] {
     width: 60%;
     background-size: 100% 100%;
     height: 350px;
     width: 100%;
     /* bottom: -50px; */
   }
-  
-  img[alt='featuresImage2'] {
+
+  img[alt="featuresImage2"] {
     border-radius: 35px;
     height: 70%;
     top: -315px;
     left: 26%;
   }
-  
+
   .booksection2 button {
     font-size: 1rem;
   }
@@ -1123,95 +1127,95 @@ footer {
     height: 350px;
     border-radius: 50px;
   }
-  
+
   .subscribesection h1 {
     font-size: 2rem;
     margin-bottom: 30px;
   }
-  
+
   .subscribesection p {
     font-size: 0.6rem;
     margin-bottom: 40px;
   }
-  
+
   .mail-box input {
     width: 250px;
     height: 35px;
     border-radius: 30px;
     padding-left: 40px;
   }
-  
-  img[alt='mail'] {
+
+  img[alt="mail"] {
     left: -240px;
     height: 20px;
   }
-  
+
   .mail-box input:focus {
     font-size: 1rem;
   }
-  
+
   .mail-box button {
     height: 35px;
     font-size: 0.8rem;
-  } 
-  
+  }
+
   /* footer */
   .left-footer {
     width: 55%;
   }
-  
+
   .right-footer {
     width: 45%;
   }
 }
-
-
-
-
 
 @media screen and (min-width: 992px) and (max-width: 1300px) {
   /* card section */
   .cardsection h1 {
     margin-top: 70px;
   }
-  
+
   .all-cards {
     padding: 0 50px;
   }
-  
+
   .card {
     width: 28%;
     height: 400px;
   }
-  
+
   .cardinfo {
     gap: 15px;
   }
-  
+
   .card-left h3 {
     font-size: 1rem;
     margin-bottom: 8px;
   }
-  
+
   .card-left p {
     font-size: 0.8rem;
   }
-  
+
   .card-right button {
     font-size: 1rem;
     padding: 5px 12px;
   }
-  
-  .card2, .card5, .card8 {
+
+  .card2,
+  .card5,
+  .card8 {
     margin-top: 50px;
   }
-  
-  .card3, .card4, .card9 {
+
+  .card3,
+  .card4,
+  .card9 {
     margin-top: 100px;
   }
 
   /* book section */
-  img[alt='featuresImage1'] {
+  img[alt="featuresImage1"] {
     width: 70%;
     height: 400px;
   }
